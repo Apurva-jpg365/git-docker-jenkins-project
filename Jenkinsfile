@@ -2,9 +2,9 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_HUB_REPO = 'atuljkamble/basic-webapp'
-        DOCKER_HUB_CREDENTIALS = 'dockerhub-credentials' // Jenkins credential ID
-        GIT_REPO = 'https://github.com/atulkamble/git-docker-jenkins-project.git'
+        DOCKER_HUB_REPO = 'apurvapadegaonkar/basic-webapp'
+        DOCKER_HUB_CREDENTIALS = 'dockerhub-token' // Jenkins credential ID
+        GIT_REPO = 'https://github.com/Apurva-jpg365/git-docker-jenkins-project.git'
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
     
